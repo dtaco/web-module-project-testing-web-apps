@@ -76,6 +76,7 @@ const ContactForm = () => {
           <label htmlFor="firstName">First Name*</label>
           <input
             onChange={handleChange}
+            data-testid="firstNameBox"
             name="firstName"
             value={form.firstName}
             id="firstName"
@@ -88,6 +89,7 @@ const ContactForm = () => {
           <label htmlFor="lastName">Last Name*</label>
           <input
             onChange={handleChange}
+            data-testid="lastNameBox"
             id="lastName"
             name="lastName"
             value={form.lastName}
@@ -100,6 +102,7 @@ const ContactForm = () => {
           <label htmlFor="email">Email*</label>
           <input
             onChange={handleChange}
+            data-testid="emailBox"
             id="email"
             name="email"
             value={form.email}
@@ -112,6 +115,7 @@ const ContactForm = () => {
           <label htmlFor="message">Message</label>
           <input
             onChange={handleChange}
+            data-testid="messageBox"
             name="message"
             id="message"
             value={form.message}
